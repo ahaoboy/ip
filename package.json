@@ -1,0 +1,24 @@
+{
+  "name": "e-ip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "eip": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup ./src/index.ts",
+    "dev": "",
+    "test": "npm run build && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "阿豪boy",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "tsup": "^5.11.11"
+  }
+}
