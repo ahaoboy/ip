@@ -1,10 +1,10 @@
 {
-  "name": "e-ip",
+  "name": "@ahaoboy/ip",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "bin": {
-    "eip": "dist/index.js"
+    "ip": "dist/index.js"
   },
   "files": [
     "dist"
